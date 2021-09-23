@@ -17,8 +17,8 @@ async def hello(ctx):
 
 @client.command(pass_context=True)
 async def poll(ctx,*,message):
-    embed=discord.Embed(title="preferred way of investing", description=message, color=0x3498db)
-    # embed.set_footer(text="created by Aditya")
+    embed=discord.Embed(title="POLL TITLE", description=message, color=0x3498db)
+    embed.set_footer(text="created by Aditya")
     msg = await ctx.send(embed=embed)
 
     await msg.add_reaction("🅰")
