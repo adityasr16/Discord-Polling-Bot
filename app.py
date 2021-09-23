@@ -28,4 +28,4 @@ async def poll(ctx,*,message):
     
     await ctx.msg.delete()
 
-client.run("ODkwMTg1NjcyMTcyOTEyNjUw.YUsIAw.umhIvL6ACx05KyPL5cSM769Mfak")
+client.run("BOT SECRET TOKEN")
